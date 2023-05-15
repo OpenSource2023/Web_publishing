@@ -1,6 +1,8 @@
 # Web_publishing
 웹 퍼블리싱
-
+<br>
+# 실행
+index.html 실행하면 된다.
 <br>
 
 ## 남은 부분
