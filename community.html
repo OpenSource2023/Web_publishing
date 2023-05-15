@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>싱물- 커뮤니티</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <a href="index.html">
+                <img src="logo.png" alt="Logo" class="logo">
+            </a>
+            <a href="index.html"><span class="home">홈</span></a>
+            <a href="Guide.html"><span class="use">사용방법</span></a>
+            <a href="service.html"><span class="service">서비스</span></a>
+            <a href="community.html"><span class="community">커뮤니티</span></a>
+            <a href="diary.html"><span class="diary">다이어리</span></a>
+            <a href="signup.html"><span class="signup">회원가입</span></a>
+            <a href="login.html"><input class="header-login-button" type="button" value="로그인"></a>
+            <a href="user.html"><span class="user"></span></a>
+            <div class="headerline"></div>
+        </div>
+      
+    </header>
+
+
+    <div class="Body-service">
+        커뮤니티
+    </div>
+
+
+    <div class="communitysearch-container">
+        <input type="text" id="search-input" placeholder="내용을 검색하세요">
+        <button id="search-button">검색</button>
+    </div>
+
+
+    <a href="Writing.html">
+        <button id="community-write-button">글쓰기</button>
+    </a>
+      
+    
+
+
+    <div id="search-results">
+        <div id="popular-posts">
+            <h2>인기글</h2>
+            <ul id="popular-posts-list"></ul>
+        </div>
+        
+        <div id="latest-posts">
+            <h2>최신글</h2>
+            <ul id="latest-posts-list"></ul>
+        </div>
+
+    </div>
+    
+
+    <footer>
+        CONTACT
+    </footer>
+
+
+    <!-- 미완성 : 백엔드랑 연결해야 됨 -->
+    <script>
+            // 검색 버튼 클릭 이벤트 핸들러
+            document.getElementById('search-button').addEventListener('click', function() {
+            var searchInput = document.getElementById('search-input').value;
+            
+            // 여기에서 백엔드로 검색 결과 요청을 보내고 인기글과 최신글을 받아온다고 가정
+            var popularPosts = ['인기글1', '인기글2', '인기글3'];
+            var latestPosts = ['최신글1', '최신글2', '최신글3'];
+
+            // 인기글 목록을 업데이트
+            var popularPostsList = document.getElementById('popular-posts-list');
+            popularPostsList.innerHTML = ''; // 기존 목록 초기화
+
+            popularPosts.forEach(function(post) {
+                var li = document.createElement('li');
+                li.textContent = post;
+                popularPostsList.appendChild(li);
+            });
+
+            // 최신글 목록을 업데이트
+            var latestPostsList = document.getElementById('latest-posts-list');
+            latestPostsList.innerHTML = ''; // 기존 목록 초기화
+
+            latestPosts.forEach(function(post) {
+                var li = document.createElement('li');
+                li.textContent = post;
+                latestPostsList.appendChild(li);
+            });
+            });
+            
+            // 게시물 데이터
+
+            const posts = [
+            { title: "첫 번째 게시물", content: "첫 번째 게시물의 내용입니다." },
+            { title: "두 번째 게시물", content: "두 번째 게시물의 내용입니다." },
+            { title: "세 번째 게시물", content: "세 번째 게시물의 내용입니다." },
+            ];
+
+            // 검색 버튼 클릭 이벤트 처리
+            const searchButton = document.getElementById("search-button");
+            searchButton.addEventListener("click", handleSearch);
+
+            // 검색 이벤트 핸들러
+            function handleSearch() {
+            const searchInput = document.getElementById("search-input");
+            const searchTerm = searchInput.value.toLowerCase();
+            
+            const searchResults = posts.filter(post => {
+                const titleMatch = post.title.toLowerCase().includes(searchTerm);
+                const contentMatch = post.content.toLowerCase().includes(searchTerm);
+                return titleMatch || contentMatch;
+            });
+            
+            displaySearchResults(searchResults);
+            }
+
+            // 검색 결과를 화면에 표시하는 함수
+            function displaySearchResults(results) {
+            const searchResultsContainer = document.getElementById("search-results");
+            
+            // 이전 검색 결과 초기화
+            searchResultsContainer.innerHTML = "";
+            
+            if (results.length > 0) {
+                results.forEach(result => {
+                const resultElement = document.createElement("div");
+                resultElement.innerHTML = `<h3>${result.title}</h3><p>${result.content}</p>`;
+                searchResultsContainer.appendChild(resultElement);
+                });
+            } else {
+                searchResultsContainer.innerHTML = "검색 결과가 없습니다.";
+            }
+            }
+
+    </script>
+    
+</body>
+</html>

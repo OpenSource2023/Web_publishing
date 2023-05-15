@@ -1,0 +1,1026 @@
+a {
+    text-decoration: none;
+  }
+  
+header{
+    background-color: #fff;
+}
+
+.logo{
+    position: absolute;
+    top: 3%;
+    left: 11%;
+    
+}
+
+.logo2{
+    position: absolute;
+    top: 370px;
+}
+
+.logo3{
+    position: absolute;
+    top: 300px;
+    margin-left: 1000px;
+    width: 300px;
+    height: auto;
+}
+
+
+
+.home {
+    position: absolute;
+    top: 7%;
+    left: 25%;
+    width: 57px;
+    height: 27px;
+    font-family: OpenSans;
+    font-size: 20px;
+    text-align: center;
+    color: #000;
+}
+
+.use{
+    position: absolute;
+    top: 7%;
+    left: 32%;
+    width: 86px;
+    height: 27px;
+    font-family: OpenSans;
+    font-size: 20px;
+    text-align: center;
+    color: #000;
+}
+
+
+.service {
+    position: absolute;
+    top: 7%;
+    left: 42%;
+    width: 76px;
+    height: 27px;
+    font-family: OpenSans;
+    font-size: 20px;
+    text-align: center;
+    color: #000;
+}
+
+
+.community{
+    position: absolute;
+    top: 7%;
+    left: 52%;
+    width: 86px;
+    height: 27px;
+    font-family: OpenSans;
+    font-size: 20px;
+    text-align: center;
+    color: #000;
+}
+
+
+.diary{
+    position: absolute;
+    top: 7%;
+    left: 62%;
+    width: 86px;
+    height: 27px;
+    font-family: OpenSans;
+    font-size: 20px;
+    text-align: center;
+    color: #000;
+}
+
+
+.signup{
+    position: absolute;
+    top: 7.7%;
+    left: 74%;
+    width: 86px;
+    height: auto;
+    flex-grow: 0;
+    font-family: OpenSans;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+}
+
+.header-login-button{
+    position: absolute;
+    top: 7%;
+    left: 80%;
+    width: 60px;
+    height: auto;
+    flex-grow: 0;
+    padding: 6px 17px 7px 8px;
+    border-radius: 40px;
+    box-shadow: inset -1px -1px 2px 0 #fff, inset 1px 1px 2px 0 rgba(170, 170, 204, 0.5);
+    background-color: #fead00;
+    text-align: center;
+    -webkit-text-fill-color: #f5f5fa;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+.user{
+    position: absolute;
+    top: 4.8%;
+    left: 85%;
+    right: 70.5px;
+    width: 50px;
+    height: 50px;
+    flex-grow: 0;
+    border: solid 0.01px #000;
+    background-color: #fff;
+    border-radius: 45px;
+    
+}
+
+.headerline {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100px; 
+    height: 5px;
+    flex-grow: 0;
+    background-color: #f5f5fa;
+}
+  
+  
+
+
+#yellowbox {
+    position: absolute;
+    top: 103px;
+    height: 123%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fffdf3;
+
+}
+
+
+.homecontent {
+    position: absolute;
+    top: 130px;
+    font-family: OpenSans;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+}
+
+.homecontent2{
+    position: absolute;
+    top: 300px;
+    font-family: OpenSans;
+    font-size: 17px;
+    text-align: center;
+    color: #000;
+}
+
+.Rectangle-30 {
+    position:absolute ;
+    left: 116px;
+    right: 268px;
+    width: 314px;
+    height: 276px;
+    margin: 164px 112px 139px 116px;
+    border: solid 1px #000;
+}
+
+.Rectangle-31 {
+    position:absolute ;
+    left: 542px;
+    right: 268px;
+    width: 314px;
+    height: 276px;
+    margin: 164px 112px 139px 116px;
+    border: solid 1px #000;
+}
+
+
+.Rectangle-32 {
+    position:absolute ;
+    left: 969px;
+    right: 268px;
+    width: 314px;
+    height: 276px;
+    margin: 164px 112px 139px 116px;
+    border: solid 1px #000;
+}
+
+.homecontent-button {
+    position: absolute;
+    top: 86%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 180px;
+    height: 55px;
+    padding: 12px 32px;
+    border-radius: 25px;
+    box-shadow: inset -1px -1px 2px 0 #fff, inset 1px 1px 2px 0 rgba(170, 170, 204, 0.5);
+    background-color: #fead00;
+    color: #fff;
+    font-size: 24px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
+  
+
+
+.homecontent3 {
+    position: absolute;
+    top: 1300px;
+    width: 1211px;
+    height: 365px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: OpenSans;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000;
+    margin-left: 210px;
+    
+  }
+  
+.homecontent3 p {
+    margin-left: 0;
+    text-align: left;
+}
+  
+
+footer{
+    position: absolute;
+    top: 1800px;
+    display: flex;
+    width: 92%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 102px;
+    margin-top: 180px;
+    padding: 42px 54px;
+    background-color: #fffdf3;
+}
+
+
+
+
+  
+  
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+
+/*서비스.html*/
+
+.Body-service {
+    position: absolute;
+    top: 29%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 37px;
+    font-weight: bold;
+  }
+  
+
+  
+.filter{
+    position: absolute;
+    top: 220px;
+    width: 150px;
+    height: 57px;
+    margin: 52.7px 11px 55px 53px;
+    padding: 15px 57px 15px 56px;
+    border-radius: 23px;
+    border: solid 2px #e5e5e5;
+    background-color: #fff;
+    width: 40px;
+    height: 27px;
+    font-family: OpenSans;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+    left: 110px;
+
+}
+
+
+.filter-Region{
+    position: absolute;
+    top: 50%;
+    left: 11%;
+    width: 120px;
+    height: auto;
+    font-family: OpenSans;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    color: #000;
+
+
+}
+
+.filter1{
+    font-size: 20px;
+}
+
+.filterline{
+    position: absolute;
+    top: 28%;
+    width: 115px;
+    height: 1.3px;
+    background-color: #020202;
+    left: 3px;
+
+}
+  
+
+.check-type01{
+    position: absolute;
+    top: 60px;
+    font-weight: lighter;
+}
+
+
+.check-type02{
+    position: absolute;
+    top: 90px;
+    font-weight: lighter;
+}
+
+.check-type03{
+    position: absolute;
+    top: 120px;
+    font-weight: lighter;
+}
+
+.filter-space{
+    position: absolute;
+    top: 550px;
+    width: 81px;
+    height: 27px;
+    margin: 53px 79px 13.5px 54px;
+    font-family: OpenSans;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+    margin-left: 57px;
+    left: 110px;
+}
+
+.filterline2{
+    position: absolute;
+    top: 20px;
+    width: 115px;
+    height: 1.3px;
+    background-color: #020202;
+    left: 3px;
+
+}
+
+.check-space01{
+    position: absolute;
+    top: 60px;
+    font-weight: lighter;
+}
+
+.check-space02{
+    position: absolute;
+    top: 90px;
+    font-weight: lighter;
+}
+
+.check-space03{
+    position: absolute;
+    top: 120px;
+    font-weight: lighter;
+    width: 130px;
+}
+
+
+.filter-where{
+    position: absolute;
+    top: 780px;
+    width: 81px;
+    height: 27px;
+    margin: 53px 79px 13.5px 54px;
+    font-family: OpenSans;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+    margin-left: 57px;
+    left: 110px;
+}
+
+
+.filterline3{
+    position: absolute;
+    top: 20px;
+    width: 115px;
+    height: 0.8px;
+    background-color: gray;
+    left: 3px;
+}
+
+.check-where01{
+    position: absolute;
+    top: 60px;
+    font-weight: lighter;
+    width: 130px;
+}
+
+.check-where02{
+    position: absolute;
+    top: 90px;
+    font-weight: lighter;
+    width: 130px;
+}
+
+.check-where03{
+    position: absolute;
+    top: 120px;
+    font-weight: lighter;
+    width: 150px;
+}
+
+/*검색 css*/
+.search-container {
+    position: absolute;
+    top: 41%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+  }
+  
+  #search-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 80px;
+    margin-right: 8px;
+    width: 650px;
+    height: 26px;
+  }
+  
+  #search-button {
+    padding: 8px 12px;
+    background-color: skyblue;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  #search-button:hover {
+    background-color: skyblue;
+  }
+  
+
+
+/*---------------------------------------------------------------------------------------------------------------*/
+/*커뮤니티.html*/
+
+
+.communitysearch-container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+}
+
+
+#popular-posts {
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+}
+  
+#latest-posts{
+    position: absolute;
+    top: 100%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+
+} 
+
+
+
+#community-write-button{
+        position: absolute;
+        top: 37.8%;
+        left: 78%;
+        padding: 8px 12px;
+        background-color: #6791f3;
+        color: #fff;
+        border: none;
+        border-radius: 80px;
+        cursor: pointer;
+        width: 92px;
+        height: 40px;
+}
+
+
+
+
+
+
+/*---------------------------------------------------------------------------------------------------------------*/
+/*글작성.html*/
+
+
+
+/*---------------------------------------------------------------------------------------------------------------*/
+/*다이어리.html*/
+
+.diary-content{
+    position: absolute;
+    top: 49%;
+    left: 13%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.diary-content2{
+    position: absolute;
+    top: 100%;
+    left: 13%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#diary-add-button{
+
+    position: absolute;
+    top: 99.8%;
+    left: 24%;
+    padding: 8px 12px;
+    background-color: #6791f3;
+    color: #fff;
+    border: none;
+    border-radius: 80px;
+    cursor: pointer;
+    width: 70px;
+    height: 40px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------*/
+/*회원가입.html*/
+
+
+#wrapper {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    height: 100%;
+}
+
+#content {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 460px;
+}
+
+
+
+
+/* 입력폼 */
+
+
+h3 {
+    margin: 19px 0 8px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+.box {
+    display: block;
+    width: 100%;
+    height: 51px;
+    border: solid 1px #dadada;
+    padding: 10px 14px 10px 14px;
+    box-sizing: border-box;
+    background: #fff;
+    position: relative;
+}
+
+.int {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 29px;
+    border: none;
+    background: #fff;
+    font-size: 15px;
+}
+
+input {
+    font-family: OpenSans;  
+}
+
+.box.int_id {
+    padding-right: 110px;
+}
+
+.box.int_pass {
+    padding-right: 40px;
+}
+
+.box.int_pass_check {
+    padding-right: 40px;
+}
+
+.step_url {
+    /*@naver.com*/
+    position: absolute;
+    top: 16px;
+    right: 13px;
+    font-size: 15px;
+    color: #8e8e8e;
+}
+
+.pswdImg {
+    width: 18px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    margin-top: -10px;
+    cursor: pointer;
+}
+
+#bir_wrap {
+    display: table;
+    width: 100%;
+}
+
+#bir_yy {
+    display: table-cell;
+    width: 147px;
+    
+}
+
+#bir_mm {
+    display: table-cell;
+    width: 147px;
+    vertical-align: middle;
+}
+
+#bir_dd {
+    display: table-cell;
+    width: 147px;
+}
+
+#bir_mm, #bir_dd {
+    padding-left: 10px;
+}
+
+select {
+    width: 100%;
+    height: 29px;
+    font-size: 15px;
+    background: #fff url(https://static.nid.naver.com/images/join/pc/sel_arr_2x.gif) 100% 50% no-repeat;
+    background-size: 20px 8px;
+    -webkit-appearance: none;
+    display: inline-block;
+    text-align: start;
+    border: none;
+    cursor: default;
+    font-family: OpenSans;
+}
+
+/* 에러메세지 */
+
+.error_next_box {
+    margin-top: 9px;
+    font-size: 12px;
+    color: red;    
+    display: none;
+}
+
+#alertTxt {
+    position: absolute;
+    top: 19px;
+    right: 38px;
+    font-size: 12px;
+    color: red;
+    display: none;
+}
+
+/* 버튼 */
+
+.btn_area {
+    margin: 30px 0 91px;
+}
+
+#btnJoin {
+    width: 100%;
+    padding: 21px 0 17px;
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+    background-color: #08a600;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: OpenSans;
+}
+
+
+/*---------------------------------------------------------------------------------------------------------------------------- */
+/*로그인.html */
+
+
+
+
+#form-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form-inner-container {
+    
+    background-color: white;
+    max-width: 70%;
+    border-radius: 8px;
+    box-shadow: 0 0 20px gainsboro;
+}
+
+#sign-up-container, #sign-in-container {
+    padding: 60px 80px;
+    width: 320px;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+form input:not(:last-of-type) {
+    display: block;
+    margin-bottom: 20px;
+    border: 1px solid #E5E9F5;
+    background-color: #F6F7FA;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+#form-controls {
+    margin-bottom: 20px;
+}
+
+
+.loginstart{
+    color: red;
+    font-size: 150%;
+    font-weight: 500;
+}
+
+.logincon {
+    color: red;
+    font-size: 150%;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+
+
+::placeholder {
+    color: #C0C7DB;
+    font-size: larger;
+    letter-spacing: 1.2px;
+    font-family: OpenSans;
+}
+
+#form-controls button {
+    border: none;
+    font-size: 120%;
+}
+
+#form-controls button:hover {
+    cursor: pointer;
+}
+
+button[type="submit"] {
+    padding: 16px 75px;
+    background-color: #fead00;
+
+    border-radius: 10px;
+    color: white;
+}
+
+button[type="submit"]:hover {
+    background-color: #fead00;
+}
+
+button[type="button"] {
+    padding: 16px 0 16px 35px;
+    background-color: transparent;
+    color: #ED4B5E;
+}
+
+/* #terms {
+    width: 30px;
+    height: 30px;
+    appearance: none;
+    border: 2px solid #7369AB;
+    border-radius: 4px;
+    position: relative;
+}
+
+#terms:checked:after {
+    content: '\2713';
+    color: #7369AB;
+    font-size: 24px;
+    position: absolute;
+    top: 0;
+    left: 3px;
+}
+
+label[for="terms"] {
+    display: inline-block;
+    width: 80%;
+    margin-left: 10px;
+}
+
+.termsLink {
+    color: #EF7886;
+    text-decoration: none;
+} */
+
+.hide {
+    display: none!important;
+}
+
+#animation-container {
+    display: inline-block;
+}
+
+/* responsive display */
+
+@media(max-width:1438px) {
+    lottie-player {
+        width: 300px!important;
+    }
+}
+
+@media(max-width:1124px) {
+    #animation-container {
+        display: none;
+    }
+
+    #form-inner-container{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 684px) {
+    #form-controls {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    form input:not(:last-of-type) {
+        width: 85%;
+    }
+
+    #toggleSignIn, #toggleSignUp {
+        padding: 16px 75px;
+    }
+
+    #terms {
+        width: 20px;
+        height: 20px;
+    }
+    
+    label[for="terms"] {
+        display: inline-block;
+        font-size: smaller;
+    }
+}
+
+
+
+/* 마이페이지 */
+
+.userlike-plants{
+    position: absolute;
+    top: 43%;
+    left: 13%;
+    font-size: 18px;
+
+}
+
+.mypage-line{
+    position: absolute;
+    left: 12%;
+    top: 48%;
+    width: 77%; 
+    height: 2px;
+    flex-grow: 0;
+    background-color: #f5f5fa;
+}
+
+.mypage-line2{
+    position: absolute;
+    left: 12%;
+    top: 75%;
+    width: 77%; 
+    height: 2px;
+    flex-grow: 0;
+    background-color: #f5f5fa;
+}
+
+.userinformation {
+    position: absolute;
+    top: 80%;
+    border-radius: 80px;
+    border: solid 2px #e5e5e5;
+    background-color: #fff;
+    width: 120px;
+    height: 45px;
+    font-family: OpenSans;
+    font-size: 15px;
+    font-weight: bold;
+    left: 175px;
+    text-align: center;
+    margin: 2px;
+    line-height: 45px; /* 텍스트 높이와 컨테이너 높이 동일하게 설정 */
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
+.withdrawal{
+    position: absolute;
+    top: 90%;
+    border-radius: 80px;
+    border: solid 2px #e5e5e5;
+    background-color: #fff;
+    width: 120px;
+    height: 45px;
+    font-family: OpenSans;
+    font-size: 15px;
+    font-weight: bold;
+    left: 175px;
+    text-align: center;
+    margin: 2px;
+    line-height: 45px; /* 텍스트 높이와 컨테이너 높이 동일하게 설정 */
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
+
