@@ -1,5 +1,6 @@
 # Web_publishing
 웹 퍼블리싱
+<계속 업데이트 됩니다>
 <br><br>
 # 실행
 index.html 실행하면 된다.
